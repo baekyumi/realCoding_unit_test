@@ -5,7 +5,7 @@ public class UpperCaseCounter {
         }
 
         int numberOfUpperCaseChars = 0;
-        for (int index=0; index < str.length(); index++) {
+        for (int index = 0; index < str.length(); index++) {
             char charAt = str.charAt(index);
             if (charAt >= 'A' && charAt <= 'Z') {
                 numberOfUpperCaseChars++;
